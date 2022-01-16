@@ -41,7 +41,7 @@ class IpgeobaseTest < Minitest::Test
     assert ip_meta.city == "Baranchinskiy"
     assert ip_meta.country == "Russia"
     assert ip_meta.countryCode == "RU"
-    assert ip_meta.lat.rounc(2) == 58.1617.rounc(2)
-    assert ip_meta.lon.rounc(2) == 59.6991.rounc(2)
+    assert ip_meta.lat.round(2) == 58.1617.round(2)
+    assert ip_meta.lon.round(2) == 59.6991.round(2)
   end
 end

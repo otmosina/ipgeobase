@@ -15,6 +15,6 @@ gem "faraday"
 gem "nokogiri-happymapper"
 
 group :test do
-  gem "webmock"
   gem "simplecov"
+  gem "webmock"
 end
