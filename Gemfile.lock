@@ -20,6 +20,8 @@ GEM
     minitest (5.15.0)
     nokogiri (1.13.1-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.1-x86_64-linux)
+      racc (~> 1.4)
     nokogiri-happymapper (0.8.1)
       nokogiri (~> 1.5)
     parallel (1.21.0)
@@ -58,6 +60,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   faraday
